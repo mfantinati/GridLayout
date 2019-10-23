@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/user" />
+
+    <GridLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:drawableTop="@drawable/ic_usuario"
+            android:padding="35dp"
+            android:text="Usuário"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicionar"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/ic_adc"
+            android:padding="35dp" />
+
+        <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Contatos"
+            android:textSize="18sp"
+            android:drawableTop="@drawable/ic_contatos"
+            android:padding="27dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_localizacao"
+            android:padding="25dp"
+            android:text="Localização"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+  </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_gap">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="15dp"
+        android:drawableTop="@drawable/ic_sair"
+        android:padding="30dp"
+        android:text="Sair"
+        android:textSize="18sp"
+       />
+
+        </GridLayout>
+
+    </LinearLayout>
+
